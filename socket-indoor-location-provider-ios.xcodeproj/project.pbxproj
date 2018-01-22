@@ -71,7 +71,7 @@
 		8F42B77D1FF3937D00D601D2 /* socket-indoor-location-provider-ios */ = {
 			isa = PBXGroup;
 			children = (
-				8F42B7901FF3941300D601D2 /* LocationProvider */,
+				8F42B7901FF3941300D601D2 /* Provider */,
 				8F42B77E1FF3937D00D601D2 /* AppDelegate.swift */,
 				8F42B7801FF3937D00D601D2 /* ViewController.swift */,
 				8F42B7821FF3937D00D601D2 /* Main.storyboard */,
@@ -82,12 +82,12 @@
 			path = "socket-indoor-location-provider-ios";
 			sourceTree = "<group>";
 		};
-		8F42B7901FF3941300D601D2 /* LocationProvider */ = {
+		8F42B7901FF3941300D601D2 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
 				8F42B7911FF3945C00D601D2 /* ILSocketLocationProvider.swift */,
 			);
-			path = LocationProvider;
+			path = Provider;
 			sourceTree = "<group>";
 		};
 		B95CBE9019EDB54824C3DC22 /* Pods */ = {
