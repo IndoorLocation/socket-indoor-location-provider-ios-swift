@@ -1,0 +1,36 @@
+{
+  "name": "MapwizeForMapbox",
+  "version": "0.0.1",
+  "summary": "A short description of MapwizeSDK.",
+  "description": "Indoor mapping platform sdk",
+  "homepage": "http://EXAMPLE/MapwizeSDK",
+  "license": "MIT",
+  "authors": {
+    "Etienne Mercier": "etienne@mapwize.io"
+  },
+  "source": {
+    "git": "git@gitlab.com:mapwize/mapwize-ios-native.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "Classes",
+    "MapwizeForMapbox/**/*.{h,m}"
+  ],
+  "resources": "MapwizeForMapbox/Assets/*",
+  "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Mapbox-iOS-SDK": [
+
+    ],
+    "IndoorLocation": [
+
+    ]
+  }
+}
