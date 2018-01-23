@@ -14,33 +14,29 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - IndoorLocation (1.0.2)
+  - IndoorLocation (1.0.3)
   - Mapbox-iOS-SDK (3.7.3)
   - MapwizeForMapbox (1.0.2):
     - AFNetworking
     - IndoorLocation (~> 1.0)
     - Mapbox-iOS-SDK
-  - Socket.IO-Client-Swift (13.1.0):
+  - Socket.IO-Client-Swift (13.1.1):
     - Starscream (~> 3.0.2)
-  - Starscream (3.0.2)
+  - Starscream (3.0.4)
 
 DEPENDENCIES:
-  - IndoorLocation (from `../indoor-location-ios`)
+  - IndoorLocation
   - MapwizeForMapbox
   - Socket.IO-Client-Swift (~> 13.1.0)
 
-EXTERNAL SOURCES:
-  IndoorLocation:
-    :path: ../indoor-location-ios
-
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  IndoorLocation: 5bddf78ac26392e1efebdcfbf1504ca6dd831793
+  IndoorLocation: 077b1453d425e2d91b29f497b116d09defeb9b15
   Mapbox-iOS-SDK: 5304bd9605babe6da9050ea4cb23c1671420b737
   MapwizeForMapbox: 4d426c8eece5305a25a67c951a3645ef6bddb68c
-  Socket.IO-Client-Swift: b67a96d6a9e5f271bceb93e99779d2cf77c74868
-  Starscream: b512c62f6706421221b5ceb2ba01a9f58aca5bea
+  Socket.IO-Client-Swift: f22222913f29801e30ae0df712db663ec096edc2
+  Starscream: f5da93fe6984c77b694366bf7299b7dc63a76f26
 
-PODFILE CHECKSUM: 710ad481931958bf58cc861e09f10151f339c60f
+PODFILE CHECKSUM: cec0c0df17982015cd5f103b90ef822dbe534073
 
 COCOAPODS: 1.2.0

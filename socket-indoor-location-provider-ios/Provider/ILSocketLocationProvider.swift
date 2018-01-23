@@ -29,12 +29,14 @@ class ILSocketLocationProvider : ILIndoorLocationProvider {
                 if let responseArray = data as? [Dictionary<String, Any>] {
                     let responseDictionary = responseArray[0]
                     if let indoorLocationDictionary = responseDictionary["indoorLocation"] as? Dictionary<String,NSNumber> {
-                        let indoorLocation = ILIndoorLocation.init()
-                        indoorLocation.providerName = "socket"
-                        indoorLocation.latitude = indoorLocationDictionary["latitude"] as! Double
-                        indoorLocation.longitude = indoorLocationDictionary["longitude"] as! Double
-                        indoorLocation.floor = indoorLocationDictionary["floor"] as NSNumber?
-                        indoorLocation.accuracy = indoorLocationDictionary["accuracy"] as! Double
+                        let latitude = indoorLocationDictionary["latitude"] as! Double
+                        let longitude = indoorLocationDictionary["longitude"] as! Double
+                        let floor = indoorLocationDictionary["floor"] as NSNumber?
+                        let indoorLocation = ILIndoorLocation.init(provider: self, latitude: latitude, longitude: longitude, floor: floor)
+                        if let accuracy = indoorLocationDictionary["accuracy"] as? Double {
+                            indoorLocation!.accuracy = accuracy
+                        }
+                        
                         self.dispatchDidUpdate(indoorLocation)
                     }
                     

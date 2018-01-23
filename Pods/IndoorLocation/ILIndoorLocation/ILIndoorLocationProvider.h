@@ -1,11 +1,10 @@
 #import <Foundation/Foundation.h>
 
-#import "ILIndoorLocation.h"
+@class ILIndoorLocation;
 #import "ILIndoorLocationProviderDelegate.h"
 
 @interface ILIndoorLocationProvider : NSObject
 
-@property (nonatomic,strong) NSString* name;
 @property (nonatomic,strong) NSMutableArray<id<ILIndoorLocationProviderDelegate>>* delegates;
 
 - (instancetype) init;
@@ -30,4 +29,7 @@
 
 - (BOOL) isStarted;
 
+- (NSString*) getName;
+
 @end
+
