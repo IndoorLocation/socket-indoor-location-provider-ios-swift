@@ -7,7 +7,7 @@
 	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
 	<string>YES</string>
 	<key>MGLMapboxAccessToken</key>
-	<string>pk.eyJ1IjoibWFwd2l6ZSIsImEiOiJjaWd0NDJmNWQwMGFhdXlseGRpd29lMm50In0.z3m6qYCqQdlEBXcUhCLzeA</string>
+	<string>pk.mapwize</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>MWZMapwizeApiKey</key>
