@@ -4,7 +4,7 @@
 target 'socket-indoor-location-provider-ios' do
   use_frameworks!
   pod 'Socket.IO-Client-Swift', '~> 13.1.0'
-  pod 'IndoorLocation'
-  pod 'MapwizeForMapbox'
+  pod 'IndoorLocation', '1.0.4'
+  pod 'MapwizeForMapbox', '1.4.2'
   
 end
