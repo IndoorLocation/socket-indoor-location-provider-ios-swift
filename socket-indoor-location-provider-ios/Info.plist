@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your authorization to display your location on the map</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
@@ -10,8 +12,8 @@
 	<string>pk.mapwize</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
-	<key>MWZMapwizeApiKey</key>
-	<string>cab8f29af2d764be17fb092b52ebf66f</string>
+	<key>MWZApiKey</key>
+	<string>YOUR_MAPWIZE_API_KEY</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
